@@ -99,19 +99,19 @@ public class Square {
         if (game.getGameOver() && game.getWinner().equals("O"))
         {
             g.setColor(Color.black);
-            g.drawString("O Wins", 500, 400);
+            g.drawString("O Wins", 500, 780);
         }
 
         else if (game.getGameOver() && game.getWinner().equals("X"))
         {
             g.setColor(Color.black);
-            g.drawString("X Wins", 500, 400);
+            g.drawString("X Wins", 500, 780);
         }
 
         else if (game.getGameOver() && game.checkTie())
         {
             g.setColor(Color.black);
-            g.drawString("It's a tie", 500, 400);
+            g.drawString("It's a tie", 500, 780);
         }
     }
 }
